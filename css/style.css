@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'pt_sans_narrowbold';
+    src: url('../fonts/pt_sans_narrow_bold-webfont.eot');
+    src: url('../fonts/pt_sans_narrow_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pt_sans_narrow_bold-webfont.woff2') format('woff2'),
+         url('../fonts/pt_sans_narrow_bold-webfont.woff') format('woff'),
+         url('../fonts/pt_sans_narrow_bold-webfont.svg#pt_sans_narrowbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ul{
+	list-style: none;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 14px/1 'pt_sans_narrowbold', Tahoma, Arial, sans-serif;
+	color: #6e6e6e;
+	background: #d0d0d0;
+	background: linear-gradient( rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 0.5) ), url(../images/background.png);
+}
+.wrapper {
+	position: relative;
+	padding-top: 72px;
+
+}
+.container{
+	max-width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.header {
+	max-width: 1200px;
+	width: 100%;
+	background: #000;
+	position: fixed;
+	top:0;
+	left:50%;
+	transform: translateX(-50%);
+
+	
+}
+.header .container{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+.container a{
+	display: block;
+	padding: 30px 0;
+	position: relative;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+}
+.navigation ul {
+	display: flex;
+	align-items: center;
+
+
+}
+
+.navigation li {
+	padding: 0 21px;
+}
+.enter1{
+    
+    position: relative;
+    padding-left: 200px;
+}
+
+/*.	content: '';
+	width: 17px;
+	height: 14px;
+	background-image: url(../images/enter1.png);
+	position: absolute;
+    left: -34px;
+    top: calc(50% - 7px);
+	background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+
+}*/
+
+.baner {
+	height: 204px;
+	width: 368px;
+    min-width: 368px;
+	overflow: hidden;
+
+}
+.baner img {
+	padding-left: 15px;
+}
+.baner-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main {
+	padding-top: 55px;
+}
+.info-wrap {
+	line-height: 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+.info-wrap h2 {
+	font-size: 30px;
+	color: #fff;
+	font-weight: normal;
+}
+.info-wrap p {
+	color: #fff;
+}
+.left-text {
+	width: 33%;
+	padding: 0 30px 0 25px;
+}
+.middle-text {
+	width: 33%;
+	padding: 0 22.5px 0 30px;
+}
+.right-text {
+	width: 33%;
+	padding: 0 8px 0 22.5px;
+}
+.shape15 {
+	margin-top: 25px;
+	margin-bottom: 35px;
+	display:inline-block!important;
+	width:30px;
+	height:30px;
+	background-color:#FFFFFF;
+	transform:rotate(45deg)
+}
+.navigation li {
+	position: relative;
+
+}
+.active {
+	box-sizing: border-box;
+	border-bottom: 4px solid #fff;
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	
+}
+
+.navigation li:hover {
+	background: rgba(255,255,255,.1);
+}
+
+
+.enter ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 0 20px;
+
+}
+.enter img {
+	width: 100%;
+	height: 14px;
+	padding-right: 13px;
+	opacity:0.6;
+
+filter: alpha(opacity=60) #fff;
+}
+.enter img:hover {
+  opacity: 1;
+}
+
+.enter ul:hover {
+	background: rgba(255,255,255,.1);
+
+}
+
+.container label{
+	font-size: 40px;
+	line-height: 2;
+	position: absolute;
+	left:90px;
+	top:10px; 
+	display: none;
+}
+#toggle {
+	display: none;
+}
+
+@media only screen and (max-width: 760px) {
+.container	label {
+	display: block;
+	cursor: pointer;
+
+}
+.header .container {
+	height: 50px;
+	position: relative;
+
+}
+.navigation ul {
+height: 30px;
+width: 560px;
+	position: absolute;
+	left:0;
+	top:0;
+	display: flex;
+	flex-direction: column;
+	
+}
+.navigation li{
+	text-align: center;
+	height: 30px;
+	width: 33%;
+	line-height: 1;
+
+	
+}
+.active {
+	border-bottom: none;
+}
+.header {
+	position: absolute;
+	top:0;
+
+}
+.main {
+	padding-top:200px;
+}
+.header .navigation{
+	display: none;
+}
+.main .info-wrap {
+	display: block;
+	width: 100%;
+}
+.left-text {
+	width: 100%;
+}
+.middle-text {
+	width: 100%;
+}
+.right-text {
+	width: 100%;
+}
+.header .enter {
+	display: none;
+}
+#toggle:checked + .navigation {
+	display: block;
+}
+}
+
