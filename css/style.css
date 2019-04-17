@@ -357,6 +357,7 @@ filter: alpha(opacity=60) #fff;
 	padding: 17px 0;
 	color: #fff;
 	background:#000;
+	cursor: pointer;
 }
 
 .register-wrap button {
@@ -364,6 +365,7 @@ filter: alpha(opacity=60) #fff;
 	padding: 17px 0;
 	color: #fff;
 	background:#000;
+	cursor: pointer;
 }
 button:focus {
 	background: #663d15;
@@ -536,6 +538,11 @@ background: url(../images/inst2.png) no-repeat 50% 27%;
 	border-bottom: 2px solid #fff;
 	padding-top: 6px;
 }
+.socials {
+	width: 15%;
+	text-align: center;
+}
+
 .login-field, .pass-field{
 	position: relative;
 	width: 100%;
@@ -621,6 +628,7 @@ input[type=checkbox]:checked + label:before{
     margin-top: 17px;
     border:none;
     text-transform: uppercase;
+    cursor: pointer;
  }
  .popup button:hover {
  	background: #663d15;
@@ -848,7 +856,7 @@ left: 0;
     display: flex;
 }
 .contact-info button {
-    
+    cursor: pointer;
     margin-right: 10px;
     width: 46%;
 }
