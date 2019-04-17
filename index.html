@@ -16,12 +16,13 @@
         
 		<div class="container flex">
 			
-				<span class="mobile-menu"></span>
+				
 			<nav class="navigation">
+				<span class="mobile-menu"></span>
 
 
 				<ul>
-					<li ><a href="#" class="active">Главная</a></li>
+					<li class="active"><a href="#">Главная</a></li>
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Новости</a></li>
 					<li><a href="#">Прайс-лист</a></li>
@@ -29,11 +30,7 @@
 					<li><a href="#">Контакты</a></li>
 				</ul>
 			</nav>
-			<div class="enter">
-				<ul>
-					<li><img src="images/enter1.png" alt="enter-icon"></li>
-					<li><a href="#" class="enter1"> Вход</a></li>
-					</ul>
+			<div class="login dropdown-js"><a href="#">Вход</a>
 				</div>
 
 
@@ -48,21 +45,54 @@
 		</div>
 			<div class="info-wrap">
                             <div class="left-text">
-					<h2>Быстро</h2><i class='shape15'></i>
+					<h2>Быстро</h2>
+					<i class='shape15'></i>
 					<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
 				</div>
 				<div class="middle-text">
-					<h2>Круто</h2><i class='shape15'></i>
+					<h2>Круто</h2>
+					<i class='shape15'></i>
 					<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
 						МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
 						ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
 						</p>
 				</div>
 				<div class="right-text">
-					<h2>Дорого</h2><i class='shape15'></i>
+					<h2>Дорого</h2>
+					<i class='shape15'></i>
 					<p>МНАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
 				</div>
 			</div>
+			<div class="news-log-wrap container">
+				<div class="news-main">
+					<h2>Новости</h2>
+					<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+					<div class="date-after">25 сентября</div>
+					<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+					<div class="date-after">19 сентября</div>
+					<button>Все новости</button>
+				</div>
+				<div class="photo-galary">
+					<h2>Фотогалерея</h2>
+					<div class="photo-wrap">
+						<a href="#"><img src="images/img1.png" alt="work-place"></a>
+					</div>
+						<div class="photo-buttons">
+							<button>Назад</button>
+							<button>Вперед</button>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+				
+			
 			<div class="contact-log-wrap container">
 				<div class="contact-info">
 					<h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
@@ -117,26 +147,31 @@
 			</div>
 		</footer>
 		<div class="popup-wrapper">
-			<div class="popup-inner">
-			<div class="popup">
-				<div class="ttitle30"><h2>ЛИЧНЫЙ КАБИНЕТ</h2></div>
-				<p>ВВедите пожалуйста свой логин и пароль
-					Если вы забыли пароль</p>
-					<form>
-						<div class="login-filed"><input type="text" name="login" placeholder="ЛОГИН"></div>
-						<div class="pass-field"><input type="text" name="password" placeholder="ПАРОЛЬ"></div>
-						<div class="forgot">
-							<div>
-								<input type="checkbox" name="forgot" id="forgot">
-								<label for="forgot">Запомните меня</label>
-							</div>
-							<div>
-								<a href="#">Я забыл пароль!</a>
-							</div>
-						</div>
-						<input type="submit" name="submit" value="Войти" id="logins">
-					</form>
-					<span class="close"></span>
+        <div class="popup-inner">
+            <div class="popup">
+                <div class="title30">Личный кабинет</div>
+                <p>
+                    ВВедите пожалуйста свой логин и пароль
+                    Если вы забыли пароль
+                </p>
+                <form>
+                    <div class="login-field"><input type="text" name="login" placeholder="Имя"></div>
+                    <div class="pass-field"><input type="text" name="password" placeholder="Пароль"></div>
+                    <div class="forgot">
+                        <div>
+                            <input type="checkbox" name="forgot" id="forgot">
+                            <label for="forgot">Запомните меня</label>
+                        </div>
+                        <div>
+                            <a href="#">Я забыл пароль!</a>
+                        </div>
+                    </div>
+                    <button>Войти</button>
+                </form>
+                <span class="close-popup"></span>
+            </div>
+        </div>
+	</div>
 
 
 
@@ -144,7 +179,5 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
-
 </body>
-
 </html>
