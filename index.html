@@ -6,11 +6,11 @@
 	<title>Barbershop</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700&amp;subset=cyrillic" rel="stylesheet">
-   
+   <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 </head>
-<body>
+<body class="home">
 <div class="wrapper">
 	<header class="header">
         
@@ -22,21 +22,24 @@
 
 
 				<ul>
-					<li class="active"><a href="#">Главная</a></li>
-					<li><a href="#">Информация</a></li>
-					<li><a href="#">Новости</a></li>
-					<li><a href="#">Прайс-лист</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li class="active"><a href="index.html">Главная</a></li>
+					<li><a href="info.html">Информация</a></li>
+					<li><a href="news.html">Новости</a></li>
+					<li><a href="price-list.html">Прайс-лист</a></li>
+					<li><a href="shop.html">Магазин</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
-			</nav>
-			<div class="login dropdown-js"><a href="#">Вход</a>
+					<div class="login dropdown-js"><a href="#">Вход</a>
 				</div>
+				
+			</nav>
+			
 
 
 
 		</div>
 	</header>
+	<div class="main-content">
 	<main class="main container">
 		<div class="baner-wrap">
 			<div class="baner">
@@ -75,11 +78,25 @@
 				<div class="photo-galary">
 					<h2>Фотогалерея</h2>
 					<div class="photo-wrap">
-						<a href="#"><img src="images/img1.png" alt="work-place"></a>
-					</div>
+						<!-- Slider main container -->
+							<div class="swiper-container main-slider">
+							   
+							    <div class="swiper-wrapper">
+							        
+							        <div class="swiper-slide"><img src="images/slide1.jpeg"></div>
+							        <div class="swiper-slide"><img src="images/slide2.jpeg"></div>
+							        <div class="swiper-slide"><img src="images/slide3.jpeg"></div>
+							        
+							    </div>
+							    
+							 
+							    
+							    
+							</div>
+						</div>
 						<div class="photo-buttons">
-							<button>Назад</button>
-							<button>Вперед</button>
+							<button class="button-prev btn">Назад</button>
+							<button class="button-next btn">Вперед</button>
 						</div>
 					</div>
 				</div>
@@ -125,6 +142,7 @@
 
 		
 	</main>
+</div>
 		<footer class="footer">
 			<div class="footer-wrap container">
 				<div class="address">
@@ -178,6 +196,7 @@
 
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
