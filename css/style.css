@@ -690,6 +690,7 @@ input[type=checkbox]:checked + label:before{
 }
 .manufacturers {
 	color:#000;
+	    flex-wrap: wrap;
 }
 .checkbox-manuf {
 	height: 235px;
@@ -701,6 +702,7 @@ input[type=checkbox]:checked + label:before{
 .photo-price {
 	width: 74%;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .Baxter-wrapper{
 	width:32%;
@@ -719,7 +721,7 @@ input[type=checkbox]:checked + label:before{
 	display: flex;
 }
 .radio-manuf {
-	height: 285px;
+	
     display: flex;
     justify-content: space-between;
 }
@@ -728,7 +730,8 @@ input[type=checkbox]:checked + label:before{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    text-transform: uppercase;
+       padding-right: 74px;
 }
 .Accessories2{
   display: block;
@@ -740,6 +743,22 @@ padding-left: 41px;
     padding-top: 3px;
 
   user-select: none;
+}
+.buy-button {
+	text-align: center;
+    width: 75%;
+    padding: 17px 0;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 1;
+    
+
+}
+.buy-button a{
+	text-decoration: none;
+	color: #fff;
 }
 .Accessories2 input {
   position: absolute;
@@ -771,20 +790,29 @@ padding-left: 41px;
     
    }
  
- .scroll-pages a:hover,
+ 
  .scroll-pages a:focus {
  	background:#fff;
  	color: #000;
  }
  .scroll-pages {
- 	padding: 45px 0 50px 270px;
+ 	padding: 45px 0 50px 0;
  	
  }
- .scroll-pages a{
+ .scroll-pages a:hover{
+ 	background: #663d15;
+ }
+ .scroll-pages a {
+
 text-decoration: none;
 color: #fff;
-padding: 13px 19px;
+
    	background: #000;
+   	    height: 43px;
+    width: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
  }
@@ -828,6 +856,7 @@ padding: 13px 19px;
 	justify-content: space-between;
 	position: relative;
 	padding: 15px 15px;
+
 }
 .Baxter-button input {
     width: 100%;
@@ -839,8 +868,8 @@ padding: 13px 19px;
     }
 	
 
-.Baxter-button input:hover,
-.Baxter-button input:focus {
+.buy-button:hover,
+.buy-button:focus {
 	background: #663d15;
 	outline:none;
 }
@@ -850,6 +879,7 @@ padding: 13px 19px;
 .Accessories-wrap label:hover {
 	color: #663d15;
 }
+
 /*.container label{
 	font-size: 40px;
 	line-height: 2;
@@ -859,7 +889,7 @@ padding: 13px 19px;
 	display: none;
 }*/
 .manufacturers-aside {
-	width: 30%;
+	width: 26%;
 }
 .popup label:hover {
 	color: #663d15;
@@ -1128,6 +1158,7 @@ left: 0;
 }
 .photo-price {
     width: 100%;
+    justify-content: space-around;
 }
 .radio-manuf {
     height: 100%;
@@ -1186,7 +1217,7 @@ left: 0;
 	    justify-content: center;
 }
 .Baxter-wrapper {
-    width: 45%;
+    width: 46%;
     background: #fff;
     margin-right: 10px;
     margin-top: 5px;
@@ -1199,4 +1230,8 @@ left: 0;
 }
 .manuf2 {
     width: 100%;
+}
+.squere {
+    padding-right: 7px;
+    margin: 0 5px;
 }
