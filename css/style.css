@@ -926,7 +926,10 @@ padding-left: 41px;
     
    }
  
- 
+.scroll-pages .activesq {
+background:#fff;
+color: #000;	
+}
  .scroll-pages a:focus {
  	background:#fff;
  	color: #000;
@@ -1426,6 +1429,7 @@ left: 0;
 	    flex-wrap: wrap;
 	    justify-content: center;
 }
+
 .Baxter-wrapper {
     width: 46%;
     background: #fff;
