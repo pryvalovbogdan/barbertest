@@ -1407,7 +1407,7 @@ left: 0;
 	.two-columns {
     display: flex;
     align-items: stretch;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .col-half + .col-half {
     
