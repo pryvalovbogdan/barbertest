@@ -25,7 +25,25 @@ $('.close-popup').click(function () {
   },
   loop:true,
 });
-   
+    // product slider initialization
+    var galleryThumbs = new Swiper('.gallery-thumbs', {
+      spaceBetween: 0,
+      slidesPerView: 3,
+      freeMode: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true,
+    });
+    var galleryTop = new Swiper('.gallery-product', {
+      spaceBetween: 10,
+     
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+  
+$('img').magnify();
+
+
 });
 
 
