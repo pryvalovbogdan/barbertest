@@ -43,7 +43,6 @@ $('.close-popup').click(function () {
   
 $('img').magnify();
 
-
 });
 
 
