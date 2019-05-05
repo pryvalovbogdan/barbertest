@@ -861,6 +861,11 @@ padding: 0 10px;
     text-transform: uppercase;
        padding-right: 74px;
 }
+.widthbreado {
+    width: 190px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
 .Accessories2{
   display: block;
   position: relative;
@@ -871,6 +876,26 @@ padding-left: 41px;
     padding-top: 3px;
 
   user-select: none;
+}
+.aboutus-content img {
+	width: 100%;
+}
+.content-aboutus {
+	width: 50%;
+	text-align: justify;
+	margin: 0 15px 15px 0;
+}
+.aboutus-img {
+	width: 50%;
+}
+.about-ustxt {
+	line-height: 1.5;
+	color: #000;
+	text-transform: uppercase;
+
+}
+.about-ustxt span {
+	font-weight: bold;
 }
 .buy-button {
 	text-align: center;
@@ -1013,7 +1038,7 @@ color: #fff;
  	padding-right: 40px;
  }
  .price-page .col-half + .col-half {
- 		padding-right: 0;
+ 		padding-bottomright: 0;
  		padding-left: 40px;
  
  }
@@ -1023,6 +1048,11 @@ color: #fff;
  	color: #000;
 
  }
+ .widthbreads {
+    width: 181px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
  .price-page .table td:last-child {
  	text-align: center;
  }
@@ -1044,13 +1074,29 @@ color: #fff;
 	width: 50%;
 }
  .allbackground {
- 	background:#fff;
+ 	 background: url(../images/bockground-shop.png);
  }
  .contacts {
  	display: flex;
  	align-items: center;
  	justify-content: center;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	color: #000;
+ 	margin-bottom: 44px;
  }
+ .map {
+ 	margin-bottom: 20px;
+ }
+.title24 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 33px;
+}
+.contacts .phonenumb a {
+    color: #000;
+    text-decoration: none;
+}
 .squere {
 	padding-right: 7px;
 }
@@ -1275,7 +1321,13 @@ left: 0;
 	position: absolute;
 	    margin-top: 38px;
 }
+.title48 span {
+    width: 75%;
+}
 @media only screen and (max-width: 760px) {
+.title48 span {
+    width: 85%;
+}
 	.mobile-menu {
    
     margin-bottom: 13px;
@@ -1305,6 +1357,17 @@ left: 0;
     margin-bottom: 20px;
 
  }
+ .contacts {
+ 	margin-top: 25px;
+ }
+ .shape16 {
+    
+    right: -31px;
+   
+}
+.phonenumb {
+	padding-bottom: 20px;
+}
 .gallery-product-wrap {
     margin: 0 0 10px;
     padding: 20px 10px;
@@ -1502,6 +1565,28 @@ left: 0;
     
     align-items: center;
 }
+.price-page .row {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-half + .col-half {
+    width: 100%;
+}
+.price-page .col-half + .col-half {
+ 	padding-left: 0;
+}
+.price-page .col-half {
+    width: 100%;
+    text-align: center;
+}
+.price-page .col-half {
+    padding-right: 0;
+}
+.col-half h4 {
+    width: 100%;
+}
 @media only screen and (max-width: 480px) {
 	.two-columns {
     display: flex;
@@ -1516,6 +1601,9 @@ left: 0;
 .col-half {
     width: 100%;
 }
+.col-half h4:nth-child(2) {
+    padding-bottom: 0;
+}
 .popup {
 	max-width: 96%;
 	padding: 45px 20px;
@@ -1525,7 +1613,28 @@ left: 0;
 	    flex-wrap: wrap;
 	    justify-content: center;
 }
-
+.shape18 {
+    left: 82px;
+}
+.col-half h4 {
+    width: 100%;
+}
+.price-page .row {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.price-page .col-half {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+}
+.price-page .col-half + .col-half {
+    padding-left: 0;
+}
+.table {
+    margin-bottom: 40px;
+}
 .Baxter-wrapper {
     width: 46%;
     background: #fff;
